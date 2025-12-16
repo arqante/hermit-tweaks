@@ -1,0 +1,11 @@
+{
+  "modid": "HermitTweaks",
+  "name": "${project.name}",
+  "description": "${project.description}",
+  "version": "${project.version}",
+  "sts_version": "${sts.version}",
+  "mts_version": "${mts.version}",
+  "author_list": ["Arqante"],
+  "credits": "PureQuestion, AlexMdle",
+  "dependencies": ["basemod", "BaseModEx", "stslib", "Hermit"]
+}

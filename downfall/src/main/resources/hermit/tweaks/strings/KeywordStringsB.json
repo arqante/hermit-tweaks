@@ -1,0 +1,52 @@
+[
+  {
+    "PROPER_NAME": "Dead\u00a0On",
+    "NAMES": [
+      "dead\u00a0on"
+    ],
+    "DESCRIPTION": "Dead On cards trigger an additional effect when played from the middle of your hand."
+  },
+  {
+    "PROPER_NAME": "Concentrate",
+    "NAMES": [
+      "concentrate",
+      "Concentrated",
+      "concentrated"
+    ],
+    "DESCRIPTION": "Until the end of your turn, trigger the #yDead #yOn effect of the next #yDead #yOn card you play regardless of position."
+  },
+  {
+    "ID": "bruise",
+    "PROPER_NAME": "Bruise",
+    "NAMES": [
+      "bruise",
+      "Bruised",
+      "bruised"
+    ],
+    "DESCRIPTION": "Bruised creatures receive additional attack damage until the end of your turn."
+  },
+  {
+    "ID": "rugged",
+    "PROPER_NAME": "Rugged",
+    "NAMES": [
+      "rugged"
+    ],
+    "DESCRIPTION": "Reduce the next instance of unblocked damage taken to #b2."
+  },
+  {
+    "PROPER_NAME": "Bounty",
+    "NAMES": [
+      "bounty"
+    ],
+    "DESCRIPTION": "Normal enemy: #b15 gold.      Elite enemy: #b40 gold.            Boss: #b100 gold."
+  },
+  {
+    "PROPER_NAME": "Stun",
+    "NAMES": [
+      "stun",
+      "Stunned",
+      "stunned"
+    ],
+    "DESCRIPTION": "Stunned creatures skip their turn."
+  }
+]

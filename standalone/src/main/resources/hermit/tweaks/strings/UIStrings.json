@@ -1,0 +1,37 @@
+{
+  "HermitTweaks:Config": {
+    "TEXT_DICT": {
+      "increasedMaxHP": "Increase max HP from 75 to 77 (requires game restart)",
+      "renameConcentrate": "Rename \"Concentrate\" to \"Aim\" (requires game restart)"
+    }
+  },
+  "HermitTweaks:CharacterOption": {
+    "TEXT": [
+      "This character is unlocked by completing a run with the 4th character.",
+      "This character is unlocked by completing a run with the 4th character.",
+      "This character is unlocked by completing a run with the 4th character.",
+      "Este personagem é desbloqueado após completar uma jornada com o quarto personagem.",
+      "这名角色需要使用第四个角色打过一局游戏才能解锁。",
+      "這名角色需要使用第四個角色打過一局遊戲才能解鎖",
+      "This character is unlocked by completing a run with the 4th character.",
+      "Ce personnage peut être déverrouillé en terminant une partie avec le quatrième personnage.",
+      "Dieser Charakter wird durch das Abschließen eines Durchlaufs mit dem 4. Charakter freigeschaltet.",
+      "This character is unlocked by completing a run with the 4th character.",
+      "This character is unlocked by completing a run with the 4th character.",
+      "This character is unlocked by completing a run with the 4th character.",
+      "このキャラクターは4人目のキャラクターで一度侵攻を完了するとアンロックされます。",
+      "이 캐릭터는 네 번째 캐릭터로 게임을 한 번 플레이하면 해금됩니다.",
+      "This character is unlocked by completing a run with the 4th character.",
+      "This character is unlocked by completing a run with the 4th character.",
+      "Этого персонажа можно открыть, завершив вылазку с четвёртым персонажем.",
+      "Este personaje es desbloqueado al completar una partida con el cuarto personaje.",
+      "This character is unlocked by completing a run with the 4th character.",
+      "This character is unlocked by completing a run with the 4th character.",
+      "This character is unlocked by completing a run with the 4th character.",
+      "This character is unlocked by completing a run with the 4th character.",
+      "This character is unlocked by completing a run with the 4th character.",
+      "This character is unlocked by completing a run with the 4th character.",
+      "This character is unlocked by completing a run with the 4th character."
+    ]
+  }
+}

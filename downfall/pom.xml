@@ -1,0 +1,71 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>hermit.tweaks</groupId>
+        <artifactId>root</artifactId>
+        <version>${revision}</version>
+    </parent>
+
+    <artifactId>downfall</artifactId>
+
+    <name>Hermit Tweaks (Downfall)</name>
+    <description>Assorted tweaks for the Hermit to make them feel even more \"vanilla\". Downfall version.</description>
+
+    <properties>
+        <downfall.version>5.3.6</downfall.version>
+        <package.name>HermitTweaksDownfall</package.name>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>downfall</groupId>
+            <artifactId>downfall</artifactId>
+            <version>${downfall.version}</version>
+            <scope>system</scope>
+            <systemPath>${steam.path}/workshop/content/646570/1610056683/Downfall.jar</systemPath>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <finalName>${package.name}</finalName>
+        <resources>
+            <resource>
+                <directory>src/main/resources</directory>
+                <filtering>false</filtering>
+                <excludes>
+                    <exclude>ModTheSpire.json</exclude>
+                </excludes>
+            </resource>
+            <resource>
+                <directory>src/main/resources</directory>
+                <filtering>true</filtering>
+                <includes>
+                    <include>ModTheSpire.json</include>
+                </includes>
+            </resource>
+        </resources>
+
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-antrun-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <configuration>
+                            <target>
+                                <copy file="target/${package.name}.jar"
+                                      tofile="${steam.path}/common/SlayTheSpire/mods/${package.name}.jar"/>
+                            </target>
+                        </configuration>
+                        <goals>
+                            <goal>run</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+</project>
