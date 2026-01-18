@@ -11,10 +11,10 @@
     <artifactId>downfall</artifactId>
 
     <name>Hermit Tweaks (Downfall)</name>
-    <description>Assorted tweaks for the Hermit to make them feel even more \"vanilla\". Downfall version.</description>
+    <description>Assorted tweaks for the Hermit to make him feel even more \"vanilla\". Downfall version.</description>
 
     <properties>
-        <downfall.version>5.3.6</downfall.version>
+        <downfall.version>6.0.14</downfall.version>
         <package.name>HermitTweaksDownfall</package.name>
     </properties>
 
