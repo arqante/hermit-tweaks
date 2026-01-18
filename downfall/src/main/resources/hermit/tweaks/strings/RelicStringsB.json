@@ -53,7 +53,7 @@
     "NAME": "Pet Ghost",
     "FLAVOR": "Poor guy.",
     "DESCRIPTIONS": [
-      "Prevent your first lethal HP loss each combat."
+      "Prevent the first time you would die each combat."
     ]
   },
   "hermit:CharredGlove": {

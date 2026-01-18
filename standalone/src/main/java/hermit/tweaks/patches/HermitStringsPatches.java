@@ -5,7 +5,9 @@ import com.evacipated.cardcrawl.modthespire.lib.SpireConfig;
 import com.evacipated.cardcrawl.modthespire.lib.SpirePatch2;
 import com.evacipated.cardcrawl.modthespire.lib.SpireReturn;
 import com.megacrit.cardcrawl.core.Settings;
+import com.megacrit.cardcrawl.helpers.PowerTip;
 import hermit.HermitMod;
+import hermit.potions.Eclipse;
 import hermit.powers.ComboPower;
 import hermit.powers.HorrorPower;
 import hermit.powers.SnipePower;
@@ -84,6 +86,19 @@ public class HermitStringsPatches {
             if (Settings.language == Settings.GameLanguage.ENG) {
                 __instance.description = (__instance.amount == 1) ? SnipePower.DESCRIPTIONS[0] :
                         SnipePower.DESCRIPTIONS[1] + __instance.amount + SnipePower.DESCRIPTIONS[2];
+            }
+        }
+    }
+
+    @SpirePatch2(clz = Eclipse.class, method = "initializeData")
+    public static class EclipsePatch {
+        public static void Postfix(Eclipse __instance) {
+            if (Settings.language == Settings.GameLanguage.ENG) {
+                __instance.description = (__instance.getPotency() == 1) ? Eclipse.DESCRIPTIONS[0] :
+                        Eclipse.DESCRIPTIONS[1] + __instance.getPotency() + Eclipse.DESCRIPTIONS[2];
+
+                __instance.tips.clear();
+                __instance.tips.add(new PowerTip(__instance.name, __instance.description));
             }
         }
     }
