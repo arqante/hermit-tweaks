@@ -19,6 +19,7 @@ Assorted tweaks for the Hermit to make him feel even more "vanilla".
 - Ported his unlocks from Downfall to the standalone version. Additionally, the Hermit himself is now locked until you complete a single run with the Watcher.
 - (Optional.) Increased his max HP from 75 to 77 (71 -> 73 on Ascension 14+), so that there can be this nice progression of max HPs: Silent - 70, Watcher - 72, Defect - 75, Hermit - 77, Ironclad - 80.
 - (Optional.) Renamed one of his keywords from "Concentrate" to "Aim", so that it doesn't overlap with the Silent's card "Concentrate". Other than the name, nothing's changed.
+- (Optional.) Added a new version of the Hermit's splash screen with an orange/yellow background instead of red.
 - Plus any other changes I forgot to mention.
 
 ## Building

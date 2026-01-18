@@ -9,6 +9,9 @@
   },
   "hermit:Eclipse": {
     "NAME": "Liquid Void",
-    "DESCRIPTIONS": ["Put #b", " card from your #yexhaust pile into your hand. It costs #b0 this turn."," cards from your #yexhaust pile into your hand. They cost #b0 this turn."]
+    "DESCRIPTIONS": [
+      "Choose a card in your #yexhaust pile and return it to your hand. It costs #b0 this turn.",
+      "Choose #b", " cards in your #yexhaust pile and return them to your hand. They cost #b0 this turn."
+    ]
   }
 }
