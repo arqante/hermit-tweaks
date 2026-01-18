@@ -15,6 +15,7 @@ import com.evacipated.cardcrawl.modthespire.ModInfo;
 import com.evacipated.cardcrawl.modthespire.lib.SpireInitializer;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.helpers.CardLibrary;
+import com.megacrit.cardcrawl.helpers.ImageMaster;
 import com.megacrit.cardcrawl.localization.UIStrings;
 import com.megacrit.cardcrawl.unlock.UnlockTracker;
 import hermit.characters.hermit;
@@ -54,10 +55,12 @@ public class HermitTweaks implements PostInitializeSubscriber, PostReloadPrefsSu
 
     @Override
     public void receivePostInitialize() {
-        Texture badge = new Texture("hermit/tweaks/images/ModBadge.png");
-        badge.setFilter(Texture.TextureFilter.Linear, Texture.TextureFilter.Linear);
+        Texture badge = ImageMaster.loadImage("hermit/tweaks/images/ModBadge.png");
         BaseMod.registerModBadge(badge, modInfo.Name, Arrays.toString(modInfo.Authors),
                 modInfo.Description, new Config());
+        if (Config.replaceSplashScreen) {
+            BaseMod.playerPortraitMap.replace(HERMIT, "hermit/tweaks/images/HermitSelect.png");
+        }
     }
 
     @Override
@@ -94,6 +97,7 @@ public class HermitTweaks implements PostInitializeSubscriber, PostReloadPrefsSu
     public static class Config extends EasyConfigPanel {
         public static boolean increasedMaxHP = true;
         public static boolean renameConcentrate = true;
+        public static boolean replaceSplashScreen = true;
 
         public Config() {
             super(modInfo.ID, CardCrawlGame.languagePack.getUIString(

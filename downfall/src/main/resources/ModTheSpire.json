@@ -6,6 +6,6 @@
   "sts_version": "${sts.version}",
   "mts_version": "${mts.version}",
   "author_list": ["Arqante"],
-  "credits": "PureQuestion, AlexMdle",
-  "dependencies": ["basemod", "BaseModEx", "stslib", "downfall"]
+  "credits": "PureQuestion, AlexMdle, Nix",
+  "dependencies": ["basemod", "BaseModEx", "downfall"]
 }
