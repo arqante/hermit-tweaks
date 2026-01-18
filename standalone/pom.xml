@@ -11,7 +11,7 @@
     <artifactId>standalone</artifactId>
 
     <name>Hermit Tweaks</name>
-    <description>Assorted tweaks for the Hermit to make them feel even more \"vanilla\".</description>
+    <description>Assorted tweaks for the Hermit to make him feel even more \"vanilla\".</description>
 
     <properties>
         <hermit.version>1.56</hermit.version>
