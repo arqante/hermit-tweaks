@@ -2,7 +2,8 @@
   "HermitTweaks:Config": {
     "TEXT_DICT": {
       "increasedMaxHP": "Increase max HP from 75 to 77 (requires game restart)",
-      "renameConcentrate": "Rename \"Concentrate\" to \"Aim\" (requires game restart)"
+      "renameConcentrate": "Rename \"Concentrate\" to \"Aim\" (requires game restart)",
+      "replaceSplashScreen": "Replace splash screen (requires game restart)"
     }
   },
   "HermitTweaks:CharacterOption": {
