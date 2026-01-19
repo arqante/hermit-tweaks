@@ -13,7 +13,7 @@
     </modules>
 
     <properties>
-        <revision>1.1.0</revision>
+        <revision>1.1.1</revision>
         <sts.version>12-18-2022</sts.version>
         <mts.version>3.30.3</mts.version>
         <basemod.version>5.56.0</basemod.version>

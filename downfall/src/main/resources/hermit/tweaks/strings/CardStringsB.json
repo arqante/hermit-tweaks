@@ -99,7 +99,7 @@
   },
   "hermit:Dive": {
     "NAME": "Dive",
-    "DESCRIPTION": "Gain !B! Block. NL If hermit:Dead\u00a0On, gain NL !M! Plated Armor."
+    "DESCRIPTION": "Gain !B! Block. NL If hermit:Dead\u00a0On, gain NL !M! expansioncontent:Plated *Armor."
   },
   "hermit:FlashPowder": {
     "NAME": "Flash Powder",
@@ -133,7 +133,7 @@
   },
   "hermit:Scavenge": {
     "NAME": "Scavenge",
-    "DESCRIPTION": "Gain !M! Plated Armor. NL If hermit:Dead\u00a0On, gain NL !hermit:SecondMagic! Gold. NL Exhaust."
+    "DESCRIPTION": "Gain !M! expansioncontent:Plated *Armor. NL If hermit:Dead\u00a0On, gain NL !hermit:SecondMagic! Gold. NL Exhaust."
   },
   "hermit:ImpendingDoom": {
     "NAME": "Impending Doom",

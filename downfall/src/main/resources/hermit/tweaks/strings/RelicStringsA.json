@@ -25,28 +25,29 @@
     "NAME": "Horseshoe",
     "FLAVOR": "Lucky charm. Somebody is gonna be missing this.",
     "DESCRIPTIONS": [
-      "Whenever you would gain #yWeak, #yFrail, or #yVulnerable, gain #b1 less."
+      "Whenever you would gain #yWeak, #yFrail, or #yVulnerable [REMOVE_SPACE], gain #b1 less."
     ]
   },
   "hermit:Spyglass": {
     "NAME": "Spyglass",
     "FLAVOR": "Property of Kestin Highfin.",
     "DESCRIPTIONS": [
-      "At the end of your turn, if you are #yhermit:Aiming, gain an additional [E] next turn."
+      "At the end of your turn, if you are #yhermit:Aiming [REMOVE_SPACE], gain an additional [E] next turn."
     ]
   },
   "hermit:RedScarf": {
     "NAME": "Red Scarf",
     "FLAVOR": "It's warm and fuzzy.",
     "DESCRIPTIONS": [
-      "Whenever you apply a new debuff to an enemy, gain #b3 #yBlock."
+      "Whenever you apply a new debuff to an enemy, gain #b",
+      " #yBlock [REMOVE_SPACE]."
     ]
   },
   "hermit:DentedPlate": {
     "NAME": "Dented Plate",
     "FLAVOR": "Several bullets are still lodged inside.",
     "DESCRIPTIONS": [
-      "While your HP is at or below #b50%, gain [E] and draw #b1 card at the start of your turn."
+      "While your HP is at or below #b50% [REMOVE_SPACE], gain [E] and draw #b1 card at the start of your turn."
     ]
   },
   "hermit:PetGhost": {
@@ -60,43 +61,51 @@
     "NAME": "Charred Glove",
     "FLAVOR": "Parts of the glove still glow with otherworldly cinders.",
     "DESCRIPTIONS": [
-      "Whenever you draw a #rCurse, deal #b3 additional damage with your next #yAttack."
+      "Whenever you draw a #rCurse [REMOVE_SPACE], deal #b",
+      " additional damage with your next #yAttack [REMOVE_SPACE]."
     ]
   },
   "hermit:ClaspedLocket": {
     "NAME": "Clasped Locket",
     "FLAVOR": "It won't open anymore.",
     "DESCRIPTIONS": [
-      "Replaces #yOld #yLocket. The first time you draw a #rCurse each turn, #yExhaust it and draw #b2 cards. Upon pickup, obtain #b2 #rInjuries.",
-      "Never again..."
+      "Replaces #yOld #yLocket [REMOVE_SPACE]. The first time you draw a #rCurse each turn, #yExhaust it and draw #b",
+      "Never again...",
+      " cards. Upon pickup, obtain #b",
+      " #rInjuries [REMOVE_SPACE]."
     ]
   },
   "hermit:StraightRazor": {
     "NAME": "Straight Razor",
     "FLAVOR": "For a cleaner shave...",
     "DESCRIPTIONS": [
-      "Whenever you remove or #yTransform a card, heal #b15 HP."
+      "Whenever you remove or #yTransform a card, heal #b",
+      " HP."
     ]
   },
   "hermit:BrassTacks": {
     "NAME": "Brass Tacks",
     "FLAVOR": "The luster on these tacks never seems to fade.",
     "DESCRIPTIONS": [
-      "At the end of your turn, gain #b2 Block."
+      "At the end of your turn, gain #b",
+      " Block [REMOVE_SPACE]."
     ]
   },
   "hermit:BlackPowder": {
     "NAME": "Black Powder",
     "FLAVOR": "Handle with care.",
     "DESCRIPTIONS": [
-      "Whenever you trigger a #yhermit:Dead\u00a0On effect, deal #b2 damage to ALL enemies."
+      "Whenever you trigger a #yhermit:Dead\u00a0On effect, deal #b",
+      " damage to ALL enemies."
     ]
   },
   "hermit:BloodyTooth": {
     "NAME": "Broken Tooth",
     "FLAVOR": "Appears too large to have come from a human jaw...",
     "DESCRIPTIONS": [
-      "Whenever you defeat an Elite combat, heal #b7 HP and gain #b35 gold."
+      "Whenever you defeat an Elite combat, heal #b",
+      " HP and gain #b",
+      " gold."
     ]
   }
 }

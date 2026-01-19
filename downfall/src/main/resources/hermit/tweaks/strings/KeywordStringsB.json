@@ -31,7 +31,7 @@
     "NAMES": [
       "rugged"
     ],
-    "DESCRIPTION": "Reduce the next instance of unblocked damage taken to #b2."
+    "DESCRIPTION": "Reduce the next instance of unblocked damage taken to #b2 [REMOVE_SPACE]."
   },
   {
     "PROPER_NAME": "Bounty",

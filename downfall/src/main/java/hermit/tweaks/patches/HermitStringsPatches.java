@@ -13,6 +13,7 @@ import hermit.potions.Eclipse;
 import hermit.powers.ComboPower;
 import hermit.powers.HorrorPower;
 import hermit.powers.SnipePower;
+import hermit.relics.BartenderGlass;
 import javassist.CannotCompileException;
 import javassist.CtBehavior;
 
@@ -132,6 +133,16 @@ public class HermitStringsPatches {
                 __instance.tips.clear();
                 __instance.tips.add(new PowerTip(__instance.name, __instance.description));
             }
+        }
+    }
+
+    @SpirePatch2(clz = BartenderGlass.class, method = "getUpdatedDescription")
+    public static class BartenderGlassPatch {
+        public static SpireReturn<String> Prefix(BartenderGlass __instance) {
+            if (Settings.language == Settings.GameLanguage.ENG) {
+                return SpireReturn.Return(__instance.DESCRIPTIONS[0]);
+            }
+            return SpireReturn.Continue();
         }
     }
 }
